@@ -11,7 +11,9 @@ namespace HotelListing.Api.Controllers
         public static List<Hotel> hotels = new List<Hotel>
         {
             new Hotel { Id = 1, Name = "Grand Istanbul Hotel", Address = "Başakşehir / İstanbul", Rating = 4.5 },
-            new Hotel { Id = 2, Name = "Ege Paradise Resort", Address = "Çeşme / İzmir", Rating = 4.2 }
+            new Hotel { Id = 2, Name = "Ege Paradise Resort", Address = "Çeşme / İzmir", Rating = 4.2 },
+
+             new Hotel { Id = 4, Name =  "Kuzeykent Hotel", Address = "Kuzeykent / Kastamonu", Rating = 3.5 }
 
         };
         // GET: api/products
