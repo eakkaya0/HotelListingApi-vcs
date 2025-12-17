@@ -15,7 +15,7 @@ namespace HotelListing.Api.Controllers
 
              new Hotel { Id = 4, Name =  "Kuzeykent Hotel", Address = "Kuzeykent / Kastamonu", Rating = 3.5 }
 
-        };
+        }; 
         // GET: api/products
         [HttpGet]
         public ActionResult<IEnumerable<Hotel>> Get()
